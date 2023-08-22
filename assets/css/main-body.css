@@ -3,3 +3,69 @@
     color: #555555;
     text-align: center;
 }
+
+/* height: 476.5px */
+/* height: 227.3px */
+
+/* widht: 341px */
+
+.priviewContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.priview {
+    width: 341px;
+    height: 473px;
+    background-color: #ffff;
+    border-radius: 9px;
+    box-shadow: 5px 5px 15px rgb(216, 216, 216);
+    overflow: hidden;
+}
+
+.pv-image1 {
+    background-image: url('../img/1.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.pv-role{
+    background-image: url('../img/salary-2.png');
+    width: 92px;
+    height: 92px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(5px 5px 15px rgb(216, 216, 216));
+    position: relative;
+    top: -42px;
+    left: 37px;
+}
+
+.pv-description{
+    text-align: left;
+    margin-left: 37px;
+}
+
+.pv-description li{
+    margin-left: 37px;
+    margin-top: 10px;
+}
+
+.pv-image2 {
+    background-image: url('../img/2.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.pv-image3 {
+    background-image: url('../img/3.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
