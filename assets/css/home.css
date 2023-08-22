@@ -1,0 +1,128 @@
+:root {
+    --Primary: #b6895b;
+    /* --bg: #010101; */
+    --bg: #C4161C;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    min-height: 5000px;
+  }
+  
+  /* navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0.5rem 2%; */
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #5c452e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .navbar-logo img{
+    width: 100px;
+  }
+  
+  .navbar .navbar-nav {
+    margin-left: 300px;
+  }
+  .navbar .navbar-nav a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: var(--Primary);
+  }
+  
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--Primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+  }
+
+  .nav-contact{
+    border: 2px solid salmon;
+    background: salmon;
+    padding: 10px 20px;
+    color: var(--bg);
+    border-radius: 12px;
+    font-size: 3vh;
+  }
+
+  .nav-contact:hover{
+    background: rgba(1, 1, 1, 0.8);
+    color: #fff;
+  }
+  
+  .navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: var(--Primary);
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+
+  /* ===================== */
+  .hero{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: grid;
+    place-items: center 
+}
+
+.title h1,p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.title h1{
+    font-size: 60px;
+}
+
+.hero .wave{
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    left: 0;
+}
+
