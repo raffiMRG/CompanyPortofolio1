@@ -1,0 +1,148 @@
+.container{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: purple; */
+}
+
+.about{
+    padding: 96px 96px 0px 96px;
+    /* background-color: #a8a8a8; */
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.about-desc{
+    width: 560px;
+    height: 600px;
+    /* background-color: #775959; */
+    text-align: left;
+    padding: 10px;
+}
+
+.about-desc *{
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+h1[id="about"]{
+    line-height: 47.5px;
+}
+
+p[id="about"]{
+    line-height: 27px;
+}
+
+.about-doc{
+    width: 560px;
+    height: 600px;
+    /* background-color: #5b5977; */
+    padding: 10px;
+}
+
+.img-doc{
+    background-image: url('../img/2.png');
+    height: 414px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+}
+
+.wget{
+    /* background-color: salmon; */
+    width: 1120px;
+    height: 96px;
+    top: -192px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
+    text-align: left;
+    line-height: 10rem;
+}
+
+
+.button-wget{
+    border: 2px solid red;
+    background: red;
+    padding: 10px 20px;
+    color: #f3f3f3;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.wget-wrap{
+    width: 448px;
+    height: 165px;
+    background-color: red;
+    border-radius: 14px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 0;
+}
+
+.wget-wrap h2[di="wget"],p[di="wget"]{
+    color: #f3f3f3;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.result{
+    width: 100%;
+    height: 470px;
+    /* background-color: rgba(117, 65, 117, 0.933); */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+section[id="result"]{
+    /* background-color: #e94545; */
+    width: 1117px;
+    height: 296px;
+    /* padding: 3vh 0 3vh 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 0px #a7a7a7;
+}
+
+.element-Result{
+    width: 341px;
+    height: 258px;
+    overflow: hidden;
+}
+
+.element-Result{
+    /* background-color: red; */
+    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.element-Result .jumlah{
+    font-size: 69px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    line-height: 69px;
+    text-decoration: none;
+    color: rgb(179,0,0);
+}
+
+.element-Result .puas,.selesai,.dikerjakan{
+    font-size: 19px;
+}
+
+.element-Result:first-of-type + .element-Result{
+    /* background-color: green; */
+}
+
+.element-Result:last-of-type {
+    /* background-color: blue; */
+}
