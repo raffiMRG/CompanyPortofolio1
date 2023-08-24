@@ -1,0 +1,83 @@
+.staff{
+    /* margin-top: 100px; */
+    color: #555555;
+    text-align: center;
+    padding: 96px;
+    background-color: #f3f3f3;
+}
+
+.priview-staff{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.staff1,.staff2,.staff3 {
+    width: 341px;
+    height: 473px;
+    background-color: #ffff;
+    border-radius: 9px;
+    box-shadow: 5px 5px 20px rgb(216, 216, 216);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+.staff-image1,.staff-image2,.staff-image3 {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.staff-image1{
+    background-image: url('../img/1.png');
+}
+
+.staff-image2{
+    background-image: url('../img/2.png');
+}
+
+.staff-image3{
+    background-image: url('../img/3.png');
+}
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed > .circle{
+    background-color: #555555;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+.sosmed > .circle:hover{
+    background-color: #302828;
+}
+
+.staff > a{
+    color: #f3f3f3;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.staff > a:hover{
+    background-color: rgb(151, 1, 1);
+}

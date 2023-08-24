@@ -1,0 +1,72 @@
+.penggunaan{
+    margin-top: 8rem;
+    padding: 96px;
+    background-color: #313131;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.penggunaan h1,h2{
+    margin-top: 10px;
+}
+
+.priviewPenggunaan{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.penggunaan1,.penggunaan2,.penggunaan3 {
+    width: 341px;
+    height: 473px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.penggunaan-image1 {
+    background-image: url('../img/1.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.penggunaan-role{
+    background-color: #d6c800;
+    border-radius: 45.5px;
+    width: 92px;
+    height: 92px;
+    position: relative;
+    top: -42px;
+    left: 37px;
+    font-size: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.penggunaan-description{
+    text-align: center;
+    margin-left: 37px;
+}
+
+.penggunaan-description p{
+    margin-top: 10px;
+}
+
+.penggunaan-image2 {
+    background-image: url('../img/2.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
+.penggunaan-image3 {
+    background-image: url('../img/3.png');
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+}
