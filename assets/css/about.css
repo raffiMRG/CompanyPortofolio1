@@ -1,17 +1,15 @@
-.container-about{
-    position: relative;
-    height: 600px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* background-color: purple; */
-}
-
 .about{
     padding: 96px 96px 0px 96px;
     /* background-color: #a8a8a8; */
     background-color: #f3f3f3;
     text-align: center;
+}
+
+.container-about{
+    /* height: 600px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .about-desc{
@@ -50,8 +48,8 @@ p[id="about"]{
     border-radius: 14px;
 }
 
-.wget{
-    /* background-color: salmon; */
+/* .wget{
+    background-color: salmon;
     width: 1120px;
     height: 96px;
     top: -192px;
@@ -60,7 +58,7 @@ p[id="about"]{
     position: relative;
     text-align: left;
     line-height: 10rem;
-}
+} */
 
 
 .button-wget{
@@ -71,6 +69,7 @@ p[id="about"]{
     border-radius: 30px;
     font-size: 20px;
     margin-left: 10px;
+
 }
 
 .wget-wrap{
@@ -78,16 +77,13 @@ p[id="about"]{
     height: 165px;
     background-color: red;
     border-radius: 14px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    line-height: 0;
+    padding-top: 5%;
+    margin-top: -10px;
 }
 
 .wget-wrap h2[di="wget"],p[di="wget"]{
     color: #f3f3f3;
-    margin-top: 50px;
-    margin-left: 20px;
+    
 }
 
 .result{

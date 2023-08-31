@@ -1,0 +1,31 @@
+.epilog{
+    text-align: center;
+    /* padding: 96px; */
+    background-color: #313131;
+}
+
+.container-epilog{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.desc-epilog{
+    width: 495px;
+    margin: auto;
+}
+
+.desc-epilog > h1{
+    color: #f3f3f3;
+    font-weight: 900;
+
+}
+
+.doc-epilog{
+    width: 495px;
+    height: 495px;
+    /* background-color: blue; */
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+}

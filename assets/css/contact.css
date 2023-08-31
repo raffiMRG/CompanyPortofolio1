@@ -1,0 +1,64 @@
+.contact-us{
+    /* margin-top: 100px; */
+    /* color: #555555; */
+    text-align: center;
+    padding: 96px;
+    background-color: #ffffff;
+}
+
+.priview-contact-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-us1,.contact-us2,.contact-us3 {
+    width: 341px;
+    height: 300px;
+    background-color: #ffff;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.contact-us-image1,.contact-us-image2,.contact-us-image3 {
+    height: 125px;
+    width: 125px;
+    border-radius: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 55px;
+    text-align: center;
+    line-height: 125px;
+    color: #f3f3f3;
+
+}
+
+.contact-us-image1{
+    background-color: #b30000;
+}
+
+.contact-us-image2{
+    background-color: #b30000;
+}
+
+.contact-us-image3{
+    background-color: #b30000;
+}
+
+.judul{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.keterangan{
+    color: #555555;
+    width: 200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
