@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/header-media.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/hero-media.css">
     <link rel="stylesheet" href="assets/css/layanan.css">
     <link rel="stylesheet" href="assets/css/penggunaan.css">
     <link rel="stylesheet" href="assets/css/about.css">
@@ -14,11 +17,13 @@
     <link rel="stylesheet" href="assets/css/staff.css">
     <link rel="stylesheet" href="assets/css/epilog.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/joinChat.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
 </head>
 <body>
      <!--Navbar start-->
@@ -28,19 +33,19 @@
         </a>
   
         <div class="navbar-nav">
-          <a href="#home">Beranda</a>
-          <a href="#about">Tentang Kami</a>
-          <a href="#menu">Jasa</a>
-          <a href="#contact">Project</a>
+          <a href="/">Beranda</a>
+          <a href="about.html">Tentang Kami</a>
+          <a href="jasa.html">Jasa</a>
+          <a href="project.html">Project</a>
+          <a href="contact-us.html" class="nav-contact">
+              Hubungi Kami
+          </a>
         </div>
-        <a href="#contact" class="nav-contact">
-            Hubungi Kami
-        </a>
   
         <div class="navbar-extra">
-          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+          <a href="#" id="hamburger-menu"><i class="fa fa-bars"></i></a>
         </div>
-      </nav>
+     </nav>
       <!--Navbar end-->
 
       <!-- hero section start -->
@@ -97,7 +102,7 @@
         
 
         <!-- penggunaan -->
-        <div class="penggunaan">
+        <div class="penggunaan" id="menu">
             <h2>CARA MENGGUNAKAN JASA KAMI</h2>
             <h1>HANYA DENGAN 3 LANGKAH MUDAH</h1>
 
@@ -140,21 +145,19 @@
                     <label for=""></label><li>PENAGIHAN HUTANG</li>
                     <li>BIRO HUKUM</li>
                     <li>KEAMANAN</li>
+                    <br>
+                    <a href="" class="button-wget">SELENGKAPNYA TENTANG KAMI</a>
                 </div>
 
                 <div class="about-doc">
                     <div class="img-doc"></div>
+                    <div class="wget-wrap">
+                        <h2 di="wget">PT. BAYONET MERAH PUTIH</h2>
+                        <p di="wget"><strong>Deklarasi</strong> – Taman Sriwedari Solo 19 Agustus 2018</p>
+                    </div>
                 </div>
             </div>
         
-            <div class="wget">
-                <a href="" class="button-wget">SELENGKAPNYA TENTANG KAMI</a>
-                <div class="wget-wrap">
-                    <h2 di="wget">PT. BAYONET MERAH PUTIH</h2>
-                    <p di="wget"><strong>Deklarasi</strong> – Taman Sriwedari Solo 19 Agustus 2018</p>
-                </div>
-            </div>
-
             <div class="result">
                 <section id="result">
                     <div class="element-Result">
@@ -348,8 +351,8 @@
                 </div>
                 <div class="staff2">
                     <div class="staff-image2"></div>
-                    <div class="nama"></div>
-                    <div class="jabatan"></div>
+                    <div class="nama">Markonah</div>
+                    <div class="jabatan">Manager</div>
                     <div class="sosmed">
                         <div class="circle">
                             <i class="fab fa-facebook-f"></i>
@@ -364,8 +367,8 @@
                 </div>
                 <div class="staff3">
                     <div class="staff-image3"></div>
-                    <div class="nama"></div>
-                    <div class="jabatan"></div>
+                    <div class="nama">Tuminah</div>
+                    <div class="jabatan">Supervisior</div>
                     <div class="sosmed">
                         <div class="circle">
                             <i class="fab fa-facebook-f"></i>
@@ -384,14 +387,63 @@
 
         <!-- epilog -->
         <div class="epilog">
-
+            <div class="container-epilog">
+                <div class="desc-epilog">
+                    <h1>KEPUASAN KLIEN ADALAH KEBANGGAN KAMI</h1>
+                    <p>Untuk Anda Yang Kesulitan Menyelesaikan Permasalahan Sengketa, Eksekusi Pengosongan Lahan dan Penagihan</p>
+                </div>
+                <div class="doc-epilog"></div>
+            </div>
         </div>
       <!-- main body end -->
 
       <!-- footer start -->
       <div class="footer">
-
+        <div class="container-footer">
+            <div class="about-footer">
+                <div class="icon-footer"></div>
+                <h3>PT. BAYONET MERAH PUTIH</h3>
+                <p>Solusi Masalah Sengketa, Eksekusi Pengosongan Lahan & Penagihan </p>
+                <div class="medsos-footer">
+                        <div class="circle">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="layanan-footer">
+                <h3>LAYANAN</h3>
+                <a href="">Penagihan Hutang</a>
+                <a href="">Biro Hukum</a>
+                <a href="">Pengamanan</a>
+            </div>
+            <div class="menu-footer">
+                <h3>Menu</h3>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Service</a>
+                <a href="">Project</a>
+                <a href="">Team</a>
+                <a href="">Contact US</a>
+            </div>
+        </div>
       </div>
       <!-- footer end -->
+
+        <div class="joint-chat">
+            <div class="circle">
+                <i class="fab fa-whatsapp"></i>
+                <div class="message">
+                    <h2>This Is message</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum cumque quis ducimus itaque perferendis possimus corrupti explicabo, architecto tempore sed nihil pariatur, sint ut inventore cupiditate, aspernatur consequatur porro iste?</p>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/joint-chat.js"></script>
 </body>
 </html>

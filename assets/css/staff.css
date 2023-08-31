@@ -1,6 +1,6 @@
 .staff{
     /* margin-top: 100px; */
-    color: #555555;
+    /* color: #555555; */
     text-align: center;
     padding: 96px;
     background-color: #f3f3f3;
@@ -47,6 +47,16 @@
 
 .staff-image3{
     background-image: url('../img/3.png');
+}
+
+.nama{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jabatan{
+    color: #555555;
 }
 
 .sosmed{

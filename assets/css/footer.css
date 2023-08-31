@@ -1,0 +1,77 @@
+.footer{
+    /* margin-top: 100px; */
+    /* color: #555555; */
+    text-align: left;
+    padding: 96px 96px 96px 96px;
+    background-color: #494949;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    color: #f3f3f3;
+}
+
+.container-footer > div{
+    width: 385px;
+    /* height: 500px; */
+    /* background-color: aqua; */
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.about-footer{
+    padding-right: 30px;
+}
+
+.about-footer > *{
+    margin-bottom: 20px;
+}
+
+.icon-footer{
+    height: 70px;
+    width: 100%;
+    /* background-color: blue; */
+    background-image: url('../img/icon.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.medsos-footer{
+    display: flex;
+
+}
+
+.medsos-footer > .circle{
+    background-color: #555555;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f3f3f3;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.medsos-footer > .circle:hover{
+    background-color: #302828;
+}
+
+.layanan-footer > *{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f3f3f3;
+}
+
+.menu-footer > *{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f3f3f3;
+    
+}

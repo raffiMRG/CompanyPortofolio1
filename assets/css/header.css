@@ -6,6 +6,13 @@
     --bg: #C4161C;
   }
   
+  html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   * {
     margin: 0;
     padding: 0;
@@ -15,9 +22,13 @@
     text-decoration: none;
   }
   
+  html{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
   body {
     font-family: "Noto sans", sans-serif;
-    min-height: 5000px;
   }
   
   /* navbar */
@@ -36,13 +47,19 @@
   }
   
   .navbar-logo img{
-    width: 15vh;
+    width: 10vh;
   }
   
   .navbar .navbar-nav {
     margin-left: 45vh;
   }
-  .navbar .navbar-nav a {
+
+  /* a active */
+  .navbar .navbar-nav a:first-of-type{
+    color: var(--Primary);
+  }
+
+  .navbar .navbar-nav a{
     color: #fff;
     display: inline-block;
     font-size: 3vh;
@@ -62,9 +79,15 @@
     transition: 0.2s linear;
   }
   
+  /* underline active */
+  .navbar .navbar-nav a:first-of-type:after {
+    transform: scaleX(0.5);
+  }
+  
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.5);
   }
+
 
   .nav-contact{
     border: 2px solid salmon;
@@ -82,7 +105,6 @@
   
   .navbar .navbar-extra a {
     color: #fff;
-    margin: 0 0.5rem;
   }
   
   .navbar .navbar-extra a:hover {
@@ -92,38 +114,3 @@
   #hamburger-menu {
     display: none;
   }
-
-  /* ===================== */
-  .hero{
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    display: grid;
-    place-items: center 
-}
-
-.title h1,p{
-    margin-top: 1.5vh;
-    color: #fff;
-}
-
-.title h1{
-  font-size: 9vh;
-  font-family: Montserrat, sans-serif;
-  font-weight: 700;
-}
-
-.title p{
-  font-size: 2.7vh;
-
-}
-.hero .wave{
-    position: absolute;
-    bottom: -15vh;
-    width: 100%;
-    left: 0;
-}
-

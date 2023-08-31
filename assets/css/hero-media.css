@@ -1,0 +1,194 @@
+@media (max-width: 1024px){
+    .hero .wave{
+        bottom: -10px !important;
+    }
+  
+}
+  
+@media (max-width: 768px){
+
+    .title h1{
+        font-size: 6vh;
+    }
+
+    /* layanan */
+
+    .layanan{
+        padding: 20px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .layanan > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .layanan > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .priviewLayanan{
+        flex-direction: column;
+    }
+
+    .layanan1,.layanan2,.layanan3{
+        margin-bottom: 10px; 
+        width: 100% !important;   
+    }
+
+    /* penggunaan */
+
+    .penggunaan{
+        padding: 50px 20px 50px 20px !important;
+        margin-top: 0px !important;
+    }
+
+    .penggunaan > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .penggunaan > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .priviewPenggunaan{
+        flex-direction: column;
+    }
+
+    .penggunaan1,.penggunaan2,.penggunaan3 {
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+
+    /* about */
+
+    .about{
+        padding: 50px 10px 10px 10px !important;
+    }
+
+    .container-about{
+        flex-direction: column;
+    }
+
+    .about-desc{
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    .about-desc > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .about-desc > h1{
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    .about-desc > a{
+        font-size: 16px;
+        /* margin-top: 20px; */
+    }
+
+    .about-doc{
+        width: 100% !important;
+    }
+
+    
+    .wget-wrap{
+        width: 100% !important;
+    }
+
+    .wget-wrap > h2{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .wget-wrap > p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .result{
+        height: 940px !important;
+    }
+    
+    section[id="result"]{
+        flex-direction: column;
+        height: 860px !important;
+        justify-content: space-between !important;
+        
+    }
+
+    /* proyek kami */
+
+    .proyek{
+        padding: 50px 10px 10px 10px !important;
+    }
+
+    .proyek > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .proyek > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .proyek > .p{
+        width: 100%;
+    }
+
+    .galery{
+        margin-top: 10px !important;
+    }
+    
+    .flipbox:first-of-type + .flipbox{
+        width: 346px !important;
+    }
+
+    /* mitra kami */
+    .mitra{
+        padding:0px !important;
+    }
+
+    
+    .continer-mitra{
+        width: 100% !important;
+    }
+    
+    .continer-mitra > h1{
+            font-size: 20px;
+            line-height: 22px;
+    }
+
+    .slider{
+        width: 90% !important;
+    }
+    
+    /* staff */
+
+    .staff{
+        
+    }
+    
+
+
+    /* footer */
+    .footer{
+        overflow: hidden !important;
+    }
+}
