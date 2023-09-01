@@ -1,0 +1,62 @@
+@media (max-width: 1024px){
+    .hero .wave{
+        bottom: -10px !important;
+    }
+  
+}
+  
+@media (max-width: 768px){
+    .title > h1{
+        font-size: 6vh !important;
+    }
+
+    /* contac */
+    .contact-us{
+        padding: 20px !important;
+    }
+
+    .priview-contact-us{
+        flex-direction: column;
+    }
+
+    /* map */
+
+    /* alamat */
+    .alamat{
+        padding: 20px 10px 20px 10px !important;
+    }
+    .container-alamat{
+        flex-direction: column;
+    }
+
+    .img-alamat{
+        width: 100% !important;
+    }
+
+    .img-deskripsi{
+        width: 100% !important;
+        padding: 10px 20px !important;
+    }
+
+    .img-deskripsi > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    /* footer */
+    .footer{
+        overflow: hidden !important;
+        padding: 50px 10px 50px 10px !important;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    /* joint-chat */
+    .joint-chat{
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+
+}

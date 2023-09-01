@@ -1,0 +1,97 @@
+.pengalaman{
+    /* margin-top: 100px; */
+    /* color: #555555; */
+    /* text-align: center; */
+    padding: 96px;
+    background-color: #f3f3f3;
+}
+
+.title-pengalaman{
+    padding: 0 15vh 0 15vh;
+    text-align: center;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+
+.container-pengalaman{
+    display: flex;
+    justify-content: center;
+}
+
+.desc-pngl{
+    width: 560px;
+    /* background-color: blue; */
+    padding: 10px 40px 20px 20px;
+}
+
+.desc-pngl > p{
+    color: #555555;
+    line-height: 25px;
+}
+
+.stat-pngl{
+    /* background-color: green; */
+    padding: 10px 40px 20px 20px;
+    width: 560px;
+}
+
+.stat{
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    
+}
+
+
+.desc-stat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persentage{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 15px;
+    border: 2px solid red;
+    margin-top: 15px;
+}
+
+.desc-stat > p{
+    color: #555555;
+    
+}
+
+.value1,.value2,.value3{
+    background-color: red;
+    height: 100%;
+}
+
+.value1{
+    width: 90%;
+}
+
+.value2{
+    width: 85%;
+}
+
+.value3{
+    width: 88%;
+}
+
+.button-pengalaman{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-pengalaman > a{
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-pengalaman > a:hover{
+    background-color: rgb(95, 0, 0);
+}

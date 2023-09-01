@@ -1,0 +1,148 @@
+@media (max-width: 1024px){
+    .hero .wave{
+        bottom: -10px !important;
+    }
+  
+}
+  
+@media (max-width: 768px){
+    
+
+    .title h1{
+        font-size: 6vh;
+    }
+
+    /* layanan */
+
+    .layanan{
+        padding: 20px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .layanan > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .layanan > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .priviewLayanan{
+        flex-direction: column;
+    }
+
+    .layanan1,.layanan2,.layanan3{
+        margin-bottom: 10px; 
+        width: 100% !important;   
+    }
+
+    /* pengalaman */
+    .pengalaman{
+        padding: 50px 10px 50px 10px !important;
+        /* display: none; */
+    }
+
+    .title-pengalaman{
+        padding: 0 10px 0 10px !important;
+    }
+
+    .title-pengalaman > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .title-pengalaman > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .container-pengalaman{
+        flex-direction: column;
+    }
+
+    .desc-pngl{
+        width: 100% !important;
+    }
+
+    .stat-pngl{
+        width: 100% !important;
+    }
+
+    /* testimonial */
+
+    .testimonial{
+        padding: 50px 10px 10px 10px !important;
+        /* display: none; */
+    }
+
+    .testimonial-title{
+        width: 100% !important;
+    }
+
+    .testimonial-title > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+        width: 100% !important;
+    }
+
+    .testimonial-title > h1{
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .container-testimonial{
+        flex-direction: column;
+    }
+
+    .testimoni{
+        width: 100% !important;
+        padding: 20px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+        text-align: center !important;
+    }
+
+    .test-title{
+        flex-direction: column;
+        align-items: center;
+    }
+    .name-and-from > h3{
+        text-align: center;
+    }
+
+    .name-and-from > p{
+        text-align: center;
+    }
+
+    .quote{
+        display: none;
+    }
+
+    /* footer */
+    .footer{
+        overflow: hidden !important;
+        padding: 50px 10px 50px 10px !important;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    /* joint-chat */
+    .joint-chat{
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+
+}

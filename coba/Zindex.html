@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kotak1{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            border: 5px solid rgb(0, 34, 0);
+            position: fixed;
+            z-index: 999;
+
+        }
+
+        .kotak2{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            border: 5px solid rgb(0, 0, 49);
+            position: fixed;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="kotak1">
+        <div class="kotak2"></div>
+    </div>
+
+</body>
+</html>
