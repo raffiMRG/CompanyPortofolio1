@@ -6,6 +6,7 @@
 }
   
 @media (max-width: 768px){
+    
 
     .title h1{
         font-size: 6vh;
@@ -179,16 +180,131 @@
         width: 90% !important;
     }
     
+    /* testimonial */
+
+    .testimonial{
+        padding: 50px 10px 10px 10px !important;
+        /* display: none; */
+    }
+
+    .testimonial-title{
+        width: 100% !important;
+    }
+
+    .testimonial-title > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+        width: 100% !important;
+    }
+
+    .testimonial-title > h1{
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .container-testimonial{
+        flex-direction: column;
+    }
+
+    .testimoni{
+        width: 100% !important;
+        padding: 20px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+        text-align: center !important;
+    }
+
+    .test-title{
+        flex-direction: column;
+        align-items: center;
+    }
+    .name-and-from > h3{
+        text-align: center;
+    }
+
+    .name-and-from > p{
+        text-align: center;
+    }
+
+    .quote{
+        display: none;
+    }
+    
     /* staff */
 
     .staff{
-        
+        padding: 50px 10px 50px 10px !important;
     }
-    
 
+    .staff-judul > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .staff-judul > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .priview-staff{
+        flex-direction: column;
+        margin-bottom: 50px !important;
+    }
+
+    .staff1,.staff2,.staff3{
+        margin-bottom: 10px;
+    }
+
+    .staff > a{
+        margin-bottom: 50px !important;
+    }
+
+    /* epilog */
+    .desc-epilog {
+        height: 300px;
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .desc-epilog > h1{
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 25%;
+    }
+
+    .desc-epilog > p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .doc-epilog{
+        height: 300px !important;
+        width: 100% !important;
+    }
+
+    .container-epilog{
+        flex-direction: column;
+    }
 
     /* footer */
     .footer{
         overflow: hidden !important;
+        padding: 50px 10px 50px 10px !important;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    /* joint-chat */
+    .joint-chat{
+        right: 15px !important;
+        bottom: 15px !important;
     }
 }

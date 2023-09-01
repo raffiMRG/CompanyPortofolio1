@@ -1,0 +1,140 @@
+@media (max-width: 1024px){
+    .hero .wave{
+        bottom: -10px !important;
+    }
+  
+}
+  
+@media (max-width: 768px){
+    
+
+    .title h1{
+        font-size: 6vh;
+    }
+
+    /* proyek */
+    .proyek{
+        padding: 50px 10px 50px 10px !important;
+    }
+    
+    .proyek > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .proyek > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .flipbox-description > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .flipbox-description > p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* penggunaan */
+    .penggunaan{
+        padding: 50px 20px 50px 20px !important;
+        margin-top: 0px !important;
+    }
+
+    .penggunaan > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .penggunaan > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .priviewPenggunaan{
+        flex-direction: column;
+    }
+
+    .penggunaan1,.penggunaan2,.penggunaan3 {
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+    
+    /* testimonial */
+    .testimonial{
+        padding: 50px 20px 50px 20px !important;
+        margin-top: 0px !important;
+    }
+
+    .testimonial-title > h2{
+        width: 100% !important;
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .testimonial-title > h1{
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .container-testimonial{
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .test-img{
+        width: 100% !important;
+    }
+
+    .testimoni{
+        width: 100% !important;
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+
+    /* mitra kami */
+    .mitra{
+        padding:0px !important;
+    }
+
+    
+    .continer-mitra{
+        width: 100% !important;
+    }
+    
+    .continer-mitra > h1{
+            font-size: 20px;
+            line-height: 22px;
+    }
+
+    .slider{
+        width: 90% !important;
+    }
+
+    /* footer */
+    .footer{
+        overflow: hidden !important;
+        padding: 50px 10px 50px 10px !important;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    /* joint-chat */
+    .joint-chat{
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+}

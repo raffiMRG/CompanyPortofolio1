@@ -1,20 +1,18 @@
-const jointChat = document.querySelector('.joint-chat');
+// media mobile phone script
 
-const circle = jointChat.querySelector('.circle');
+const hamburger = document.querySelector('.navbar-extra')
 
-const message = document.querySelector('.message');
+const navbarNav = document.querySelector('.navbar-nav')
 
-message.addEventListener('mouseover', function(e){
-    e.target.style.cursor ='context-menu';
-});
+hamburger.onclick = () => {
+    navbarNav.classList.toggle('navbar-nav-active')
+}
 
-message.addEventListener('click', function(e){
-    // alert('ok')
-    e.stopPropagation();
-});
-
-circle.addEventListener('click', function(e){
-    circle.classList.toggle('size');
-    // circle.style.transition = '.3s width, .3s height';
-});
-
+// tutup navbar jika di klik di tempat lain
+document.addEventListener('click', function(e){
+    // if(!hamburger.contains())
+    // console.log(!hamburger.contains(e.target));
+    if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)){
+        navbarNav.classList.remove('navbar-nav-active')
+    }
+})

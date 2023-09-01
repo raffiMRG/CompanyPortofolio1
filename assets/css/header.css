@@ -43,7 +43,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
+    z-index: 999;
   }
   
   .navbar-logo img{
@@ -55,9 +55,9 @@
   }
 
   /* a active */
-  .navbar .navbar-nav a:first-of-type{
+  /* .navbar .navbar-nav a:first-of-type{
     color: var(--Primary);
-  }
+  } */
 
   .navbar .navbar-nav a{
     color: #fff;
@@ -65,7 +65,7 @@
     font-size: 3vh;
     margin: 0 2vh;
   }
-  
+
   .navbar .navbar-nav a:hover {
     color: var(--Primary);
   }
@@ -78,11 +78,14 @@
     transform: scaleX(0);
     transition: 0.2s linear;
   }
-  
-  /* underline active */
-  .navbar .navbar-nav a:first-of-type:after {
-    transform: scaleX(0.5);
+
+  .navbar .navbar-nav a:last-of-type::after {
+    content: none;
   }
+  /* underline active */
+  /* .navbar .navbar-nav a:first-of-type:after {
+    transform: scaleX(0.5);
+  } */
   
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.5);
