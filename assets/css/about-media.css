@@ -1,0 +1,122 @@
+@media (max-width: 1024px){
+    .hero .wave{
+        bottom: -10px !important;
+    }
+  
+}
+  
+@media (max-width: 768px){
+    
+
+    .title h1{
+        font-size: 6vh;
+    }
+
+    /* about */
+
+    .about{
+        padding: 50px 10px 10px 10px !important;
+    }
+
+    .container-about{
+        flex-direction: column;
+    }
+
+    .about-desc{
+        width: 100% !important;
+        height: 500px !important;
+    }
+
+    .about-desc > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .about-desc > h1{
+        font-size: 20px;
+        line-height: 30px !important;
+    }
+
+    .about-desc > a{
+        font-size: 16px;
+        /* margin-top: 20px; */
+    }
+
+    .about-doc{
+        width: 100% !important;
+    }
+
+    
+    .wget-wrap{
+        width: 100% !important;
+    }
+
+    .wget-wrap > h2{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .wget-wrap > p{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .result{
+        height: 940px !important;
+    }
+    
+    section[id="result"]{
+        flex-direction: column;
+        height: 860px !important;
+        justify-content: space-between !important;
+        
+    }
+
+    /* layanan */
+
+    .layanan{
+        padding: 20px !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .layanan > h2{
+        color: red;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    .layanan > h1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .priviewLayanan{
+        flex-direction: column;
+    }
+
+    .layanan1,.layanan2,.layanan3{
+        margin-bottom: 10px; 
+        width: 100% !important;   
+    }
+
+    /* footer */
+    .footer{
+        overflow: hidden !important;
+        padding: 50px 10px 50px 10px !important;
+    }
+
+    .container-footer{
+        flex-direction: column;
+    }
+
+    /* joint-chat */
+    .joint-chat{
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+
+}
